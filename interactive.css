@@ -1,0 +1,21 @@
+.clickeable:hover {
+    transition: all 250ms;
+    background-color: rgb(145, 255, 255);
+    color:rgb(122, 21, 21);
+    display: flex;
+    /*
+    justify-content: center;
+    align-items: center;
+    */
+    padding: 16px 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav_ul:hover{
+
+    color: rgb(235, 188, 61);
+}

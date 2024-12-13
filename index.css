@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(125, 148, 168);
+}
+
+header{
+    border: 4px solid rgb(68, 106, 150);
+    display: flex;
+    background-color: rgb(80, 117, 160);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.lista_enlaces_ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 40px;
+    list-style: none;
+
+}
+.lista_enlaces_ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(235, 233, 160);
+}
+
+.nav_ul{
+    border-radius: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(69, 92, 122);
+}
+
+.imagenLogo{
+    width: 120px;
+    height: auto;
+}
+
+
+.imagenPrincipal{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*contenedor de las cartas*/
+.opciones{
+    margin-top: 5cm;
+    background-color: rgb(125, 148, 168);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.imagen_ilustracion{
+    padding-top: 1cm;
+    width: 8cm;
+}
+.tituloProducto{
+    color: rgb(184, 10, 76);
+    margin-bottom: 1cm;
+}
+.descripcionProducto{
+    margin: 20px;
+    background-color: rgb(65, 74, 105);
+    color: rgb(140, 221, 253);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.producto{ /*hacer que sea responsive*/
+    width: 25%;
+    border: 2px solid rgb(255, 208, 106);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(48, 55, 78);
+
+    background-image: url('imagenes/mosaico.png');
+    background-repeat: repeat;
+    background-size: auto;
+    
+}
+.clickeable{
+    background-color: rgb(49, 255, 186);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.logoNum2{
+    width: 70px;
+    height: auto;
+}
+/*
+display: block;
+    width: 50%;
+    margin: auto;
+*/
+
+.logoRedes{
+    flex-wrap: wrap;
+    
+}
+.face{
+    width: 40px;
+    height: auto;
+}
+.insta{
+    width: 70px;
+    height: auto;
+}
+.twitter{
+    width: 40px;
+    height: auto;
+}
+
+.datosFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.datosFooter p {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+
+.lastFooter{
+    margin-left: 875px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: rgb(65, 64, 94);
+    color: bisque;
+    margin: -8px;
+}
